@@ -3,7 +3,7 @@
 #include <string>
 
 /**
- * Determines if either first or second parameter is evenly 
+ * Determines if either first or second parameter is evenly
  * divisible by the other.
 **/
 bool Rando::isDivisibleBy(int first, int second)
@@ -27,8 +27,18 @@ bool Rando::isPalindrome(std::string eval)
  * or returns -1 if there is no single digit that occurs more often than all
  * the others
 **/
+
+/*
+*	take into consideration what is input?
+* what is the expected value?
+*/
 unsigned int Rando::mostPopularDigit(unsigned int num)
 {
+	int most;
+	int popular;
+	popular = num%10;
 
-	return -1;
+
+
+	return popular;
 }
